@@ -22,10 +22,10 @@ Use this sample project to see:
 
 ### Get started with Smartype in a sample web project
 
-In the webExample directory:
+#### In the webExample directory:
 -   `npm install` development dependencies
 -   Run `npm run start` to run the project locally
-In the root directory:
+#### In the root directory:
 -   Import the latest executable jar CLI from the [Github releases](https://github.com/mparticle/smartype/releases) 
 -   Run Smrtype init to build a configuration file: `java -jar <smartype_filename.jar> init` and specify input/output directories for the data plan and generated code.
 -   Run Smartype generate to translate JSON schema into statically-typed API clients: `java -jar <smartype_filename.jar> generate`
