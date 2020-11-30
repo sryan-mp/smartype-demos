@@ -1,0 +1,21 @@
+{
+  "smartype_object_name": "view_product",
+  "properties": {
+    "product_name": {
+      "type": "string",
+      "description": "The name of the product."
+    },
+    "product_price": {
+      "type": "number",
+      "description": "The price of the product in USD."
+    },
+    "product_category": {
+      "type": "string",
+      "description": "The category under which the product is classified."
+    },
+    "product_availability": {
+      "description": "Whether the product is in stock.",
+      "type": "boolean"
+    }
+  }
+}
